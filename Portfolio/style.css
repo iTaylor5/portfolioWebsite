@@ -16,7 +16,7 @@
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #6e93f7;
+    background: #3C403D;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
@@ -109,7 +109,7 @@ nav.sticky .menu-btn{
 
 /* home section styling */
 .home {
-  height: 60vh;
+  height: 55vh;
   width: 100%;
   background-color: #EEFBFB;
   /*background: url("images/logo/logo_size_invert.jpg");
@@ -311,7 +311,7 @@ section .button button:hover{
  }
 
  .skills .content{
-   padding: 40px 0;
+   padding: 20px 0;
  }
 
  .skills .skills-details{
@@ -355,20 +355,28 @@ section .button button:hover{
 }
 .skills-details .boxes p{
    color: #0E2431;
-   text-align: left;
+   /*text-align: left;*/
 }
 
 
 
 /* My Services CSS */
 .services {
-  color: #4DA8DA;
+  background-color: #A3BCB6;
 }
+.services .box {
+  background-color: #EEFBFB;
+  /*color: #fff;*/
+}
+/*.services .content .box .icon {
+  color: #A3BCB6;
+}*/
 
 .services .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 .services .boxes .box{
   margin: 20px 0;
@@ -381,13 +389,13 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #39603D;
   color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
   width: 50px;
-  background: #4070f4;
+  background: #3C403D;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -398,7 +406,7 @@ section .button button:hover{
 }
 .boxes .box:hover .icon{
   background-color: #fff;
-  color: #4070f4;
+  color: #39603D;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
@@ -427,7 +435,7 @@ section .button button:hover{
 
 /* Footer CSS */
 footer{
-  background: #4070f4;
+  background: #A3BCB6;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -435,11 +443,11 @@ footer{
 footer .text span{
   font-size: 17px;
   font-weight: 400;
-  color: #fff;
+  color: #3C403D;
 }
 footer .text span a{
   font-weight: 500;
-  color: #FFF;
+  color: #3C403D;
 }
 footer .text span a:hover{
   text-decoration: underline;
@@ -450,7 +458,7 @@ footer .text span a:hover{
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #DADED4;
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
