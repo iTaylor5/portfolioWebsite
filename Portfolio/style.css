@@ -24,6 +24,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #4070f4;
 }
+
 /* navbar styling */
 nav{
   position: fixed;
@@ -68,7 +69,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #DADED4;
 }
 nav.sticky .menu a{
   color: #3C403D;
@@ -112,6 +113,7 @@ nav.sticky .menu-btn{
   height: 55vh;
   width: 100%;
   background-color: #EEFBFB;
+  /*background: linear-gradient(#EEFBFB, #A3BCB6);*/
   /*background: url("images/logo/logo_size_invert.jpg");
   background-size: cover;
   
@@ -224,6 +226,7 @@ section .content{
 
 .about{
   background-color: #A3BCB6;
+  /*background: linear-gradient(#A3BCB6, #EEFBFB);*/
 }
 
 .about .about-details{
@@ -237,6 +240,7 @@ section .title{
   justify-content: center;
   margin-bottom: 40px;
 }
+
 section .title span{
   color: #3C403D;
   font-size: 30px;
@@ -279,6 +283,7 @@ section  .topic{
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
+  
 }
 .about-details .right p{
   text-align: justify;
@@ -300,9 +305,9 @@ section .button button{
   transition: all 0.4s ease;
 }
 section .button button:hover{
-  border-color: #4070f4;
-  background-color: #fff;
-  color: #4070f4;
+  border-color: #3C403D;
+  background-color: #EEFBFB;
+  color: #3C403D;
 }
 
  /* My Skills CSS */
@@ -329,7 +334,7 @@ section .button button:hover{
    text-align: justify;
  }
 
-.skills .skills-details .experience{
+/*.skills .skills-details .experience{
   display: flex;
   align-items: center;
   margin: 0 10px;
@@ -344,7 +349,8 @@ section .button button:hover{
   font-size: 18px;
   font-weight: 500;
   margin: 0 6px;
-}
+}*/
+
 .skills-details .boxes{
   width: 45%;
 }
@@ -358,14 +364,13 @@ section .button button:hover{
    /*text-align: left;*/
 }
 
-
-
 /* My Services CSS */
 .services {
+  /*background: linear-gradient(#EEFBFB, #A3BCB6);*/
   background-color: #A3BCB6;
 }
 .services .box {
-  background-color: #EEFBFB;
+  background-color: #EEFBFB;  
   /*color: #fff;*/
 }
 /*.services .content .box .icon {
@@ -421,7 +426,9 @@ section .button button:hover{
 
 /* Contact Me CSS */
 .contact{
-  background: #F0F8FF;
+  /*background: linear-gradient(#A3BCB6, #EEFBFB);*/
+  /*background: #F0F8FF; */
+  background: #EEFBFB;
 }
 .contact .content{
   margin: 0 auto;
@@ -452,6 +459,7 @@ footer .text span a{
 footer .text span a:hover{
   text-decoration: underline;
 }
+
 /* Scroll TO Top Button CSS */
 .scroll-button a{
   position: fixed;
