@@ -114,8 +114,6 @@ nav.sticky .menu-btn{
   width: 100%;
   background-color: #EEFBFB;
   font-family: 'Ubuntu', sans-serif;
-
-
 }
 
 .home .home-content{
@@ -382,7 +380,6 @@ section .button button:hover{
   background-color: #EEFBFB;  
   /*color: #fff;*/
 }
-
 
 .services .boxes{
   display: flex;
