@@ -1,0 +1,9 @@
+Colors USED:
+
+
+Light green: #64ffda
+darker green: #2F9599
+
+Silver(light-white): #ccd6f6
+
+Darker Silver: #8892b0;
