@@ -12,6 +12,6 @@ https://taylor-software-engineering.s3.eu-west-2.amazonaws.com/Portfolio/index.h
 Basic website. One paged
 
 http://itaylor5portfolio.com/
-          or
+
 itaylor5portfolio.com/
 
