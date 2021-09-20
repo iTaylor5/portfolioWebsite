@@ -11,5 +11,7 @@ https://taylor-software-engineering.s3.eu-west-2.amazonaws.com/Portfolio/index.h
 ### Date 30 July 2021
 Basic website. One paged
 
-https://itaylor5portfolio.s3.eu-west-2.amazonaws.com/Portfolio_ver_2.0/index.html
+http://itaylor5portfolio.com/
+          or
+itaylor5portfolio.com/
 
